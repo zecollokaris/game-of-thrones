@@ -1,0 +1,37 @@
+/* BACKGROUND IMAGE*/
+
+html {
+  height: 100%;
+  background-image: url("../images/background.jpg");
+}
+
+/*ENd of background image*/
+
+/*CONTENT CENTER*/
+
+body {
+  position: absolute;
+  height: 70%;
+  width: 60%;
+  /*Setting 50/50 color for content center*/
+  background: linear-gradient(to right, #D8BFD8, #FFC0CB);
+  /*End of Color setting*/
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/*END of content block styling section */
+
+/*HEADER SECTION*/
+
+#header {
+  text-align: left;
+  background-color: black;
+  color: white;
+  margin-top: -18%;
+  position: absolute;
+  width: 168%;
+  margin-left: -34%
+}
+
+/*END OF HEADER SECTION*/
