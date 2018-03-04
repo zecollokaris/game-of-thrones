@@ -67,6 +67,15 @@ body {
   margin-top: 35%;
 }
 
+.dicebutton:hover {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #666;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -webkit-transition: .5s;
+  opacity: .50;
+}
+
 /*End of button styler*/
 
 /*Output Section 1*/
