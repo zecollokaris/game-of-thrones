@@ -13,3 +13,8 @@
 -To get to this webpage fist you need to get to my github repository
 
 -The link to my github Repository is: https://github.com/zecollokaris/zecollokaris.github.io
+
+-from there you can access the work
+#{follow the above instructions for set up}
+
+#Description
