@@ -3,7 +3,7 @@
 <head>
 
   <title>DICE-PIG</title>
-  <link href="css/bootstrap.min,css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/syles.css" rel="stylesheet" type="text/css" media=all>
 
 </head>
@@ -25,7 +25,7 @@
     <div class="column1">
       <h1>PLAYER 1</h1>
       <!--Button 1-->
-      <button class=" dicebutton"></button>
+      <button class=" dicebutton" onclick="dice_1_clicked()"></button>
       <!--End of button1-->
       <!--Hold Button-->
       <div class="holdgame">
@@ -34,45 +34,44 @@
       <!--End ofHold Button-->
       <!--Output Section-->
       <main class="diceresultleft ">
-        <p style="font-family:serif;">RESULTS
-          <p>
-            <div class="result1 ">
-              <div>
+        <p style="font-family:serif;">RESULTS</p>
+
+        <h1 id="dice_1_result">2</h1>
+
+      </main>
+      <!--End ofOutput section-->
+    </div>
+    <!end of column 1-->
+
+
+    <!--2nd Column-->
+    <div class="column2 ">
+      <h1>PLAYER 2</h1>
+      <!--Button 2-->
+      <button class="dicebutton " onclick="dice_2_clicked()"></button>
+      <!--End of button1-->
+      <!--Hold Button-->
+      <div class="holdgame">
+        <p>Hold game!</p>
+      </div>
+      <!--End of Hold Button-->
+      <!--Output Section-->
+      <main class="diceresultright ">
+        <p>RESULTS</p>
+        <h1 id="dice_2_result">0<h1/>
       </main>
       <!--End ofOutput section-->
       </div>
-      <!end of column 1-->
+      </div>
+      <!end of column 2-->
+      <div class="rules">
+        <a href="rules.html">RULES</a>
+      </div>
 
 
-      <!--2nd Column-->
-      <div class="column2 ">
-        <h1>PLAYER 2</h1>
-        <!--Button 2-->
-        <button class="dicebutton "></button>
-        <!--End of button1-->
-        <!--Hold Button-->
-        <div class="holdgame">
-          <p>Hold game!</p>
-        </div>
-        <!--End of Hold Button-->
-        <!--Output Section-->
-        <main class="diceresultright ">
-          <p>RESULTS</p>
-          <div class="result1 ">
-            <div>
-        </main>
-        <!--End ofOutput section-->
-        </div>
-        </div>
-        <!end of column 2-->
-        <div class="rules">
-          <a href="rules.html">RULES</a>
-        </div>
-
-
-        <!--javascript links-->
-        <script src="js/jquery-3.3.1.js "></script>
-        <script src="js/scripts.js "></script>
+      <!--javascript links-->
+      <script src="js/jquery-3.3.1.js "></script>
+      <script src="js/scripts.js "></script>
 </body>
 
 </html>

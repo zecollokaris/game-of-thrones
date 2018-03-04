@@ -129,6 +129,29 @@ body {
 
 /*RULES*/
 
-.rules {}
+.rules {
+  margin-left: 45%;
+  margin-top: 45%;
+  color: #E0008A;
+  font-size: 15px;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.rules:hover {
+  border-radius: 5px;
+  background: white;
+  box-shadow: 5px 5px 5px #666;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -webkit-transition: .5s;
+  opacity: .50;
+}
 
 /*end of RULES*/
