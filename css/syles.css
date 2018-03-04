@@ -35,3 +35,31 @@ body {
 }
 
 /*END OF HEADER SECTION*/
+
+/*CONTENT SECTION*/
+
+.column1 {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+  text-align: center;
+  * border-left: 1px solid black;
+}
+
+/*END OF CONTENT*/
+
+/*Button Styler*/
+
+.dicebutton {
+  background-image: url("../images/dice1.png");
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 113px 110px;
+}
