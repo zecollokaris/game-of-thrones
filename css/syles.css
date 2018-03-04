@@ -48,7 +48,6 @@ body {
   float: right;
   width: 50%;
   text-align: center;
-  * border-left: 1px solid black;
 }
 
 /*END OF CONTENT*/
@@ -62,4 +61,68 @@ body {
   background-repeat: no-repeat;
   display: inline-block;
   background-size: 113px 110px;
+  cursor: pointer;
 }
+
+/*End of button styler*/
+
+/*Output Section 1*/
+
+.diceresultleft {
+  color: black;
+  background-color: #EA2B1F;
+  text-align: center;
+  width: 150px;
+  height: 120px;
+  overflow: auto;
+  position: absolute;
+  margin-left: 17%;
+  margin-top: 20%;
+}
+
+/*End of Output Section*/
+
+/*Output Section 1*/
+
+.diceresultright {
+  color: black;
+  background-color: #EA2B1F;
+  text-align: center;
+  width: 150px;
+  height: 120px;
+  overflow: auto;
+  position: absolute;
+  margin-left: 17%;
+  margin-top: 20%;
+}
+
+/*End of Output Section*/
+
+/*Holdd Game button*/
+
+.holdgame {
+  margin-left: 19.5%;
+  margin-top: 1%;
+  color: #E0008A;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.holdgame:hover {
+  border-radius: 5px;
+  background: white;
+  box-shadow: 5px 5px 5px #666;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -webkit-transition: .5s;
+  opacity: .50;
+}
+
+/*Hold Game button*/
